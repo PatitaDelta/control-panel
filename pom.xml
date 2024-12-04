@@ -12,7 +12,7 @@
 	<artifactId>control-panel</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>Panel de control</name>
+	<name>Control Panel</name>
 	<description>Panel de control para monitorización y gestión de errores</description>
 	<url/>
 	<licenses>

@@ -1,13 +1,13 @@
-package es.guillermoll.control_panel;
+package es.guillermoll.control_panel.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PanelDeControlApplication {
+public class ControlPanelApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PanelDeControlApplication.class, args);
+		SpringApplication.run(ControlPanelApplication.class, args);
 	}
 
 }
