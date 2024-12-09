@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<html lang="es" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+    layout:decorate="~{layouts/default}">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" th:href="@{/css/styles.css}" />
     <title>Home</title>
 </head>
 
-<body>
-    <h1>Hello from Home controller</h1>
-
-    <script th:src="@{/js/scripts.js}"></script>
+<body layout:fragment="page-content">
+    <section class="bg-dark">
+        <h1>Hello from Home controller</h1>
+    </section>
+    <th:block layout:fragment="page-scripts">
+        <!-- Scripts de la pagina  -->
+    </th:block>
 </body>
 
 </html>
