@@ -1,4 +1,4 @@
-package es.guillermoll.control_panel.auth;
+package es.guillermoll.control_panel.auth.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

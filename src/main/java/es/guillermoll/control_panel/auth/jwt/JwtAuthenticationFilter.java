@@ -3,6 +3,7 @@ package es.guillermoll.control_panel.auth.jwt;
 import java.io.IOException;
 
 import org.springframework.http.HttpHeaders;
+import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 import org.springframework.web.filter.OncePerRequestFilter;
 
@@ -11,6 +12,7 @@ import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
+@Component
 public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
     @Override
